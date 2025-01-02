@@ -2,13 +2,24 @@
 title: "General Design Principles"
 teaching: 0
 exercises: 0
-questions:
-- "What are most commonly used design principles?"
-objectives:
-- "To introduce common design principles"
-keypoints:
-- " "
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are most commonly used design principles?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- To introduce common design principles
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
 
 # General Design Principles
 
@@ -41,7 +52,7 @@ https://bootcamp.uxdesign.cc/software-design-principles-every-developers-should-
 
 # Designing Software – High Level Phases
 
-![](img/elements.png)
+![](fig/elements.png){alt="elements"}
 
 As shown in the figure above, software design has three phases:
 requirements gathering, decomposition, and understanding connectivity
@@ -108,3 +119,11 @@ the phases may need to be reconsidered as understanding grows.
 In the next section we will work through a real life application design.
 
 
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- FIXME
+
+::::::::::::::::::::::::::::::::::::::::::::::::

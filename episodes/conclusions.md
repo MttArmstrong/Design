@@ -2,13 +2,22 @@
 title: "Conclusions"
 teaching: 0
 exercises: 0
-questions:
-- ""
-objectives:
-- "Summarize learning for the design module"
-keypoints:
-- "Investing in design is critical for reliable, maintainable and extensible software"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- None
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Summarize learning for the design module
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 # Final takeaways
 
@@ -31,3 +40,13 @@ keypoints:
 
 [Software Design for Longevity with Performance Portability](https://bssw.io/events/webinar-software-design-for-longevity-with-performance-portability)
 
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Investing in design is critical for reliable, maintainable and extensible software
+
+::::::::::::::::::::::::::::::::::::::::::::::::

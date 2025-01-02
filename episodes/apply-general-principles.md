@@ -2,23 +2,32 @@
 title: "Design Principles Application"
 teaching: 0
 exercises: 0
-questions:
-- "What are some ways of using these principles"
-objectives:
-- "Work through a simple example"
-keypoints:
-- "Understanding process of software design with a simple application"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are some ways of using these principles
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Work through a simple example
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 # Example 1 – Problem Description
 
 We have a house with exterior walls made of single material of
-thickness Lx\. The wall has some water pipes shown in the picture\.
+thickness $Lx$\. The wall has some water pipes shown in the picture\.
 The inside temperature is kept at 70 degrees\. But outside temperature is expected to be \-40 degrees for 15\.5 hours\.
 
 The question we are trying to answer is -- will the pipes freeze before the storm is over
 
-![](img/example1.png)
+![](fig/example1.png){alt="example1"}
 
 
 
@@ -27,10 +36,9 @@ by the partial differential (PDE)...
 
 | | |
 |:---:|:---:|
-|![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20-%20%5Cnabla%20%5Ccdot%20%5Calpha%20%5Cnabla%20u%20%3D%200)|(1)|
+|![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20-%20%5Cnabla%20%5Ccdot%20%5Calpha%20%5Cnabla%20u%20%3D%200)|(1)|
 
-where _u_ is the temperature at spatial positions, _x_, and times, _t_,
-![](http://latex.codecogs.com/gif.latex?%5Calpha) is the _thermal diffusivity_
+where $u$ is the temperature at spatial positions, $x$, and times, $t$, $\alpha$ is the _thermal diffusivity_
 of the homogeneous material through which heat is flowing. This partial differential equation (PDE)
 is known as the _Diffusion Equation_ and also the [_Heat Equation_](https://en.wikipedia.org/wiki/Heat_equation).
 
@@ -38,8 +46,7 @@ is known as the _Diffusion Equation_ and also the [_Heat Equation_](https://en.w
 
 To make the problem tractable for this lesson, we make some simplifying assumptions...
 
-1. The thermal diffusivity, ![](http://latex.codecogs.com/gif.latex?%5Calpha),
-   is constant for all _space_ and _time_.
+1. The thermal diffusivity, $\alpha$, is constant for all _space_ and _time_.
 1. The only heat _source_ is from the initial and/or boundary conditions.
 1. We will deal only with the _one dimensional_ problem in _Cartesian
 coordinates_.
@@ -48,7 +55,7 @@ In this case, the PDE our application needs to solve simplifies to...
 
 | | |
 |:---:|:---:|
-|![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20%3D%20%5Calpha%20%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%20x%5E2%7D)|(2)|
+|![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20%3D%20%5Calpha%20%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%20x%5E2%7D)|(2)|
 
 The code in the repository has three different numerical algorithms
 
@@ -101,10 +108,21 @@ We will work through one of them -- FTCS
 
 # Connectivity
 
-![](img/conn1.png)
+![](fig/conn1.png){alt="placeholder alt text"}
 
 # Connectivity – Alternative Possibility
 
-![](img/conn2.png)
+![](fig/conn2.png){alt="placeholder alt text"}
 
 
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Understanding process of software design with a simple application
+
+::::::::::::::::::::::::::::::::::::::::::::::::

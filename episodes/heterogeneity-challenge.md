@@ -2,13 +2,21 @@
 title: "Challenges of Heterogeneity"
 teaching: 0
 exercises: 0
-questions:
-- "What new challenges are posed heterogeneous computers"
-objectives:
-- "To understand the challenges to design posed by heterogeneity in computers"
-keypoints:
-- " More computations rely on accelerators, software design should be cognizant of added constraints"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What new challenges are posed heterogeneous computers
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- To understand the challenges to design posed by heterogeneity in computers
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 
 # New Paradigm Because of Platform Heterogeneity
@@ -18,7 +26,7 @@ before also includes growing complexity due to different type of
 devices in play. The figure below shows the axes of growing complexity
 for software design.
 
-![](img/scale.png)
+![](fig/scale.png){alt=""}
 
 Question \- do the design principles change?
 
@@ -28,7 +36,7 @@ The details get more involved
 
 # Go Back to the Design Model for Separation of Concerns
 
-![](img/sepcon2.png)
+![](fig/sepcon2.png){alt=""}
 
 Places where more thought has to be given is in the hierarchy of
 decomposition and the interplay between finer-grain components.
@@ -37,9 +45,16 @@ choices.
 
 # Platform Heterogeneity
 
-![](img/hetero.png)
+![](fig/hetero.png){alt=""}
 
 And memory access models: unified memory / gpu\-direct / explicit transfer
 
 
 
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- More computations rely on accelerators, software design should be cognizant of added constraints
+
+::::::::::::::::::::::::::::::::::::::::::::::::

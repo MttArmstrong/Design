@@ -2,14 +2,22 @@
 title: "Research Software Design Example"
 teaching: 0
 exercises: 0
-questions:
-- ""
-objectives:
-- "To work through an example of research software design"
-keypoints:
-- "More complex requirements gathering and connectivity and
--implications on design"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- FIXME
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- To work through an example of research software design
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 # More Complex Application Design – Sedov Blast Wave
 
@@ -32,7 +40,7 @@ is good to use adaptive mesh refinement.
 * Ideal gas equation of state
 * Method of verification
 
-![](img/sedov.png)
+![](fig/sedov.png){alt="placeholder"}
 
 # Deeper Dive into Requirements
 
@@ -108,11 +116,11 @@ shock has traveled.
 
 # Connectivity
 
-![](img/conn3.png)
+![](fig/conn3.png){alt="placeholder"}
 
 # Exploring design space -- Abstractions
 
-![](img/abstract.png)
+![](fig/abstract.png){alt="placeholder"}
 
 
 We consider the possibilities of abstractions as a first step in
@@ -143,11 +151,11 @@ __Other Design Considerations__
 
 # A Design Model for Separation of Concerns
 
-![](img/sepcon.png)
+![](fig/sepcon.png){alt="placeholder"}
 
 # Separation of Concerns Applied
 
-![](img/sepconapplied.png)
+![](fig/sepconapplied.png){alt="placeholder"}
 
 # Takeaways So far
 
@@ -164,3 +172,10 @@ Design with portability\, extensibility\, reproducibility and maintainability in
 
 
 
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- More complex requirements gathering and connectivity and -implications on design
+
+::::::::::::::::::::::::::::::::::::::::::::::::

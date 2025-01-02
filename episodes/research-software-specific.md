@@ -1,20 +1,29 @@
 ---
-title: "Design Principles for Reserach software"
+title: "Design Principles for Reserach Software"
 teaching: 0
 exercises: 0
-questions:
-- "How do design principles differ for
-research software"
-objectives:
-- "To understand design constraints for research software"
-keypoints:
-- "Design principles need to be adapted for research software"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- How do design principles differ for
+research software
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- To understand design constraints for research software
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 
 # Research Software Specific Challenges
 
-![](img/loop.png)
+![](fig/loop.png){alt="placeholder"}
 
 For most of research software we have a positive feedback loop. When
 we start exploring some phenomenon we devise a mathematical model for
@@ -39,9 +48,10 @@ componentization
 
 An addition challenge is faced by scientific software in that
 verification is complicated by floating point representation
+
 # SOLID Principles Pose Some Difficulties
 
-![](img/solid.png)
+![](fig/solid.png){alt="placeholder"}
 
 As shown in the figure, some of the SOLID principles do not work too
 well with RS. For example the Single Responsibility princple can
@@ -61,7 +71,7 @@ we work through in the next section
 
 # Additional Considerations for Research Software
 
-![](img/RS.png)
+![](fig/RS.png){alt="placeholder"}
 
 Some additional considerations come into play for designing RS that
 may not be needed for enterprise software. These are:
@@ -94,3 +104,14 @@ may not be needed for enterprise software. These are:
 
 * During design thought should be given to extensibility build into
   the framework and in other components.
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Design principles need to be adapted for research software
+
+::::::::::::::::::::::::::::::::::::::::::::::::

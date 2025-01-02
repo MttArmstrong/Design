@@ -2,19 +2,26 @@
 title: "Design for Heterogeneity"
 teaching: 0
 exercises: 0
-questions:
-- "How should one design software for heterogeneous platforms"
-objectives:
-- "To understand how research software design needs to adapt for
-heterogeneous platforms"
-keypoints:
-- "More separation of concerns and abstractions are needed"
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- How should one design software for heterogeneous platforms
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- To understand how research software design needs to adapt for heterogeneous platforms
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 
 # Mechanisms Needed by the Code
 
-![](img/mechanisms.png)
+![](fig/mechanisms.png){alt=""}
 
 # Underlying Ideas: Unification of Computational Expressions
 
@@ -66,13 +73,22 @@ __In either case performance depends upon how well the mapping is done__
 
 # Features and Abstractions to be Added to Earlier Example
 
-![](img/newabstractions.png)
+![](fig/newabstractions.png){alt=""}
 
 # Mechanisms Needed by the Code : Example Flash-X
 
-![](img/mechanismsflash.png)
+![](fig/mechanismsflash.png){alt=""}
 
 # Construction of Application with Components and Tools
 
-![](img/flashxschema.png)
+![](fig/flashxschema.png){alt=""}
 
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- More separation of concerns and abstractions are needed
+
+::::::::::::::::::::::::::::::::::::::::::::::::
