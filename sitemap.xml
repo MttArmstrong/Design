@@ -10,6 +10,9 @@
     <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/apply-general-principles.html</loc>
   </url>
   <url>
@@ -25,6 +28,9 @@
     <loc>https://carpentries.github.io/workbench-template-md/heterogeneity-challenge.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
   </url>
   <url>
@@ -35,6 +41,9 @@
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/apply-general-principles.html</loc>
@@ -52,10 +61,19 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/heterogeneity-challenge.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
@@ -70,7 +88,13 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/rs-example.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
